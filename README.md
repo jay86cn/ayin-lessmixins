@@ -20,7 +20,7 @@ Less的具体使用方式，请查阅 [less中文文档](https://less.bootcss.co
 
 本mixin库，可以在任意项目中使用，可以全局引入，或则单独引入
 
-###### vue.config.js中全局引入
+**vue.config.js中全局引入**
 
 ```js
 pluginOptions: {
@@ -35,7 +35,7 @@ pluginOptions: {
 
 
 
-###### vite.config.js中全局引入
+**vite.config.js中全局引入**
 
 ```js
 css: {

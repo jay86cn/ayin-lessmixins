@@ -22,7 +22,7 @@ e.g. `.absoluteCenter` is actually `position: absolute; top:50%; left:50%; trans
 
 This mixin library, which can be used in any project, can be introduced globally, or separately
 
-###### Global introduction in vue.config.js
+**Global introduction in vue.config.js**
 
 ```js
 pluginOptions: {
