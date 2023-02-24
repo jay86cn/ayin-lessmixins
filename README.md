@@ -1,5 +1,13 @@
 [English](./README.en.md) | 简体中文
 
+
+
+[Gitee Download](https://gitee.com/ayin86/ayin-lessmixins)
+
+[Github Download](https://github.com/ayin86/ayin-lessmixins)
+
+
+
 ## 简介
 
 AyinLessMixins 是基于less.js开发的一套样式mixin库 ，本库已开源并上传至npm服务器 [ayin-lessmixins](https://www.npmjs.com/package/ayin-lessmixins)

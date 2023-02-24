@@ -2,6 +2,12 @@ English | [简体中文](./README.md)
 
 Translated by deepl
 
+[Gitee Download](https://gitee.com/ayin86/ayin-lessmixins)
+
+[Github Download](https://github.com/ayin86/ayin-lessmixins)
+
+
+
 ## Introduction
 
 AyinLessMixins is a set of style mixin libraries based on less.js , this library has been open sourced and uploaded to the npm server [ayin-lessmixins](https://www.npmjs.com/package/ayin-lessmixins)
