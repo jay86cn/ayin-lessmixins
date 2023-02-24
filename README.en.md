@@ -1,36 +1,53 @@
-# ayin-lessmixins
+English | [简体中文](./README.md)
 
-#### Description
-AyinLessMixins 是基于less.js开发的一套样式mixin库
+## Introduction
 
-#### Software Architecture
-Software architecture description
+AyinLessMixins is a set of style mixin libraries based on less.js , this library has been open sourced and uploaded to the npm server [ayin-lessmixins](https://www.npmjs.com/package/ayin-lessmixins)
 
-#### Installation
+For details of how to use Less, please check [less documentation](https://less.bootcss.com/)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+The most useful thing about this library is that it calls some common CSS snippets via short code.
 
-#### Instructions
+For example `.bd(@wh)` is actually `border:1px solid #fff;`
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+e.g. `.bgc(@bk)` actually `background-color:#0000;`
 
-#### Contribution
+e.g. `.absoluteCenter` is actually `position: absolute; top:50%; left:50%; transform: translateX(-50%) translateY(-50%) @plus;`
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+-----
+
+## Usage
+
+This mixin library, which can be used in any project, can be introduced globally, or separately
+
+###### global introduction in vue.config.js
+
+```js
+pluginOptions: {
+    'style-resources-loader': {
+        preProcessor: 'less',
+            patterns: [
+                path.resolve(__dirname, ". /node_modules/ayin-lessmixins/ayin-lessmixins.less")
+            ]
+    }
+},
+```''
 
 
-#### Gitee Feature
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Global introduction in ###### vite.config.js
+
+``` js
+css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+        additionalData:`
+          @import "${path.resolve(__dirname, '. /node_modules/ayin-lessmixins/ayin-lessmixins.less')}";
+          `
+      }
+    }
+  },
+```
+
+It is recommended to use global introductions in your project, so that the definitions in mixins can be easily called in all components without each file being introduced separately.
