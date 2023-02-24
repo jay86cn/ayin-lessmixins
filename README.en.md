@@ -20,7 +20,15 @@ e.g. `.absoluteCenter` is actually `position: absolute; top:50%; left:50%; trans
 
 ## Usage
 
-This mixin library, which can be used in any project, can be introduced globally, or separately
+This mixin library, which can be used in any project
+
+Install from the NPM server
+
+`npm i ayin-lessmixins --save`
+
+Then introduce it globally or separately by doing the following
+
+
 
 **Global introduction in vue.config.js**
 

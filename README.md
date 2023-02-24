@@ -18,7 +18,15 @@ Less的具体使用方式，请查阅 [less中文文档](https://less.bootcss.co
 
 ## 使用方式
 
-本mixin库，可以在任意项目中使用，可以全局引入，或则单独引入
+本mixin库，可以在任意项目中使用
+
+从NPM服务器安装
+
+`npm i ayin-lessmixins --save`
+
+然后通过下面方式全局引入或者单独引入
+
+
 
 **vue.config.js中全局引入**
 
