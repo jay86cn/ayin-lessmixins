@@ -1,5 +1,7 @@
 English | [简体中文](./README.md)
 
+Translated by deepl
+
 ## Introduction
 
 AyinLessMixins is a set of style mixin libraries based on less.js , this library has been open sourced and uploaded to the npm server [ayin-lessmixins](https://www.npmjs.com/package/ayin-lessmixins)
@@ -20,7 +22,7 @@ e.g. `.absoluteCenter` is actually `position: absolute; top:50%; left:50%; trans
 
 This mixin library, which can be used in any project, can be introduced globally, or separately
 
-###### global introduction in vue.config.js
+###### Global introduction in vue.config.js
 
 ```js
 pluginOptions: {
@@ -31,11 +33,11 @@ pluginOptions: {
             ]
     }
 },
-```''
+```
 
 
 
-Global introduction in ###### vite.config.js
+**Global introduction in  vite.config.js**
 
 ``` js
 css: {
